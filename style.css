@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    /* column-gap: 590px; */
+    
+}
+
+.navleft{
+    justify-self: flex-start;
+    width: 600px;
+    
+}
+.navleft img{
+    height: 65px;  
+   padding-top: 20px;
+   margin-left: -80px;
+}
+
+.navright a{
+    text-decoration: none;
+    color: #00000099;
+    line-height: 1.25;
+}
+.navright{
+    align-items: flex-end;
+}
+#join-now{
+    height: 45px;
+    width: 100px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000BF;
+
+}
+#sign-in{
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    border: 1px solid #0a66c2;
+    background: white;
+    color: #0a66c2;
+    font-size: 16px;
+    font-weight: 500;
+}
+.welcome{
+    display: flex;    
+}
+.welcome h1{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 56px;
+    font-weight: 200;
+    color: #8F5849;
+}
+#username{
+    height: 40px;
+    width: 400px;
+    text-indent: 0.5em;
+    font-size: 17px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+#password{
+    height: 40px;
+    width: 400px;
+    text-indent: 0.5em;
+    font-size: 17px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.welcomeleft a{
+    text-decoration: none;
+    color: #000000E6;
+    font-size: 17px;
+}
+#signin{
+    height: 55px;
+    width: 410px;
+    border: 1px solid #2977c9;
+    background-color: #2977c9;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    border-radius: 30px;
+    margin-top: 20px;
+   
+}
+#sign-in-with-google{
+    height: 55px;
+    width: 410px;
+    align-items: center;
+    justify-items: space-between;
+    font-size: larger;
+    font-weight: 400;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    color: #00000099;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400px
+;
+}
