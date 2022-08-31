@@ -8,6 +8,7 @@
     <title>LinkedIn: Log in or sign up</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/linkedinfav.png" type="image/x-icon">
+    <link rel="stylesheet" href="all.css">
 </head>
 
 <body>
@@ -17,29 +18,37 @@
                 <img src="images/linkedinemblem.png" alt="linkedin emblem">
             </div>
             <div class="navright">
-                <a href="">Discover</a> &nbsp;&nbsp;
-                <a href="">People</a>&nbsp;&nbsp;
-                <a href="">Learning</a>&nbsp;&nbsp;
-                <a href="">Jobs</a>&nbsp;&nbsp;
-                <button type="button" id="join-now">Join now</button>&nbsp;&nbsp;
-                <button type="button" id="sign-in"> Sign in</button>
+                <div class="navlinks">
+                    <a href=""><i class="fa-solid fa-compass"></i>&nbsp;Discover</a>
+                <a href=""><i class="fa-solid fa-users"></i>&nbsp;People</a>
+                <a href=""><i class="fa-solid fa-book-open-cover"></i>&nbsp;Learning</a>
+                <a href=""><i class="fa-solid fa-briefcase"></i>&nbsp;Jobs</a>
+                </div>
+                <div class="nav-btn">
+                    <button type="button" id="join-now">Join now</button>
+                    <button type="button" id="sign-in"> Sign in</button>
+                </div>
+               
             </div>
         </div>
 
         <div class="welcome">
             <div class="welcomeleft">
-                <h1>Welcome to your <br> professional community</h1>
-                <form>
-                    <input type="text" id="username" placeholder="Email or phone number">
-                    <br>
-                    <input type="text" id="password" placeholder="Password">
-                </form>
-                <a href=""> Forgot password? </a>
-                <br>
-                <button type="submit" id="signin">Sign In</button><br>
-               OR
-                <button type="button" id="sign-in-with-google"> <img src="images/google.png" alt="google" > Sign in with Google </button>
+                <h1>Welcome to your professional community</h1>
+           <fieldset>
+            <button type="button" id="wel">Search for a job</button>
+            <i class="fa-solid fa-angle-right"></i>
+           </fieldset>
+           <fieldset>
+            <button type="button" id="wel">Find a person you know</button>
+            <i class="fa-solid fa-angle-right"></i>
+           </fieldset>
+           <fieldset>
+            <button type="button" id="wel">Learn a new skill</button>
+            <i class="fa-solid fa-angle-right"></i>
+           </fieldset>
             </div>
+            
             <div class="welcomeright">
                 <img src="images/manseatedwithlaptop.svg" alt="man seated with his laptop">
             </div>
@@ -51,14 +60,17 @@
             </div>
             <div class="exploreright">
                 <h4>CONTENT TOPICS</h4>
-                <button type="button" id="see-all-topics">See All Topics</button>
-                <button type="button" id="remote"> Remote</button>
-                <button type="button" id="work from home"> Work From Home</button><br>
-                <button type="button" id="retirement"> Retirement</button>
-                <button type="button" id="internships"> Internships</button>
-                <button type="button" id="freelancer"> Freelancer</button><br>
-                <button type="button" id="salary">Salary and Compensation</button>
-                <button type="button" id="starting"> Starting  a job</button>
+                <div class="ex-btn">
+                    <button type="button" id="see-all-topics">See All Topics</button>
+                    <button type="button" id="remote"> Remote</button>
+                    <button type="button" id="work from home"> Work From Home</button>
+                    <button type="button" id="retirement"> Retirement</button>
+                    <button type="button" id="internships"> Internships</button>
+                    <button type="button" id="freelancer"> Freelancer</button>
+                    <button type="button" id="salary">Salary and Compensation</button><br>
+                    <button type="button" id="starting"> Starting  a job</button>
+                </div>
+               
             </div>
         </div>
 
