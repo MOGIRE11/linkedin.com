@@ -9,6 +9,8 @@ body{
 }
 .container{
     width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
 }
 img{
     height: 60vh;
@@ -167,11 +169,160 @@ fieldset:hover{
 }
 .exploreright button{
     width: fit-content;
-    height: 60px;
+    height: 50px;
+    font-size: 1.3rem;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+.find-right-job{
+    width: 100%;
+    height:50vh ;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.findleft{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    color: #1c1c1c;
+    font-weight: lighter;
+}
+.findleft h2{
+    font-size: 3.5rem;
+    font-weight: lighter;
+   
+}
+.findright{
+    width: 50%;
+}
+.findright button{
+    width: fit-content;
+    height: 50px;
     font-size: 1.3rem;
     padding-left: 3%;
     padding-right: 3%;
     margin-bottom: 10px;
     border: 1px solid black;
     border-radius: 40px;
+    font-weight: 500;
+}
+.findright h4{
+    color: grey; 
+   margin-bottom: 20px;
+   font-weight: 500;
+   font-size: 1.3rem;
+}
+
+.post-your-job{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.postleft{
+    width: 25%;
+}
+.postright{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.postright button{
+    height: 35px;
+    width: 110px;
+    color: white;
+    font-weight: bolder;
+    background-color: #0A66C2;
+    border: 1px solid #0A66C2;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+}
+/* slideshow 
+slideshow
+slideshow
+*/
+.connect-and-learn{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.connect-and-learn button{
+    height: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.connectleft{
+    width: 40%;
+}
+.connectright {
+    width: 30%;
+    
+}
+.join-colleagues-and-friends{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#get-started{
+    height: 30px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: large;
+    font-weight: 400;
+    background-color: #0A66C2;
+    border: 1px solid #0A66C2;
+    color: white;
+}
+.links{
+    width: 100%;
+    height: 60vh;
+}
+.image{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    left: 10%;
+    margin-bottom: 2%;
+}
+#emb{
+    height: 100%;  
+}
+.bottom{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+}
+.footer{
+    width: 100%;
+    height:20vh;
+    display: flex;
+    align-items: center;
+}
+#blkemb{
+    height: 100%;
+}
+.bottom a,.footer a{
+    text-decoration: none;
+    font-size: medium;
+}
+.bottom a:hover,.footer a:hover{
+    text-decoration: underline;
+}
+.bottom h4{
+    font-size: 1.5rem;
 }
